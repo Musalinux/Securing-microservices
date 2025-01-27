@@ -2,6 +2,9 @@
 
 This repository contains the implementation of the dissertation project titled **"Securing Microservices in Cloud Containers"**, completed as part of the requirements for the Master of Science in Cyber Security at Nottingham Trent University. The project focuses on securing microservices deployed in cloud containers by integrating robust security measures into the CI/CD pipeline using AWS services.
 
+## Microservice Application Screenshot
+![image](https://github.com/user-attachments/assets/e7fd736b-a199-4def-9962-7518d371d315)
+
 ## Abstract
 
 The rapid adoption of microservices and containerized architectures in cloud computing has introduced unique security challenges. This project proposes a scalable and automated security framework leveraging advanced AWS tools, including:
@@ -22,9 +25,9 @@ By integrating these services into a CI/CD pipeline, the solution ensures robust
 - **Security Tools:** Continuous monitoring, vulnerability scanning, and compliance automation.
 - **Threat Scenarios:** Testing for geo-blocking, IP whitelisting, and DDoS simulations.
 
-## Architecture Overview
+## Architecture Diagram
+![image](https://github.com/user-attachments/assets/c8864d85-cb0e-461e-9cbd-0e3f07c39ade)
 
-![Architecture Diagram](link-to-architecture-diagram)
 
 The project utilizes a containerized microservices architecture deployed on AWS, with:
 
@@ -33,6 +36,9 @@ The project utilizes a containerized microservices architecture deployed on AWS,
 3. **User Service**: Manages user authentication and profiles.
 4. **Amazon ECS**: Orchestrates microservices.
 5. **AWS Security Tools**: Implements layered security.
+
+## Project Lifecycle Diagram 
+![image](https://github.com/user-attachments/assets/7f930177-6dc4-43ad-92af-87d1e7ed386e)
 
 ## Project Repository Structure
 
@@ -88,6 +94,9 @@ The project utilizes a containerized microservices architecture deployed on AWS,
    - Use the provided deployment scripts in the `CI/CD_pipeline_scripts` directory.
 
 4. Access the application at `http://<public-ecs-endpoint>:3000`.
+
+## AWS CodePipeline 
+![image](https://github.com/user-attachments/assets/00862e2c-5ece-4288-9f9a-3c716fe7dbd3)
 
 ## Security Features
 
